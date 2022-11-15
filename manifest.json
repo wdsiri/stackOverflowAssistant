@@ -1,0 +1,25 @@
+{
+    "name": "Stack Overflow Assistant",
+    "description": "Assistant for Stack Overflow",
+    "version": "1.0",
+    "manifest_version": 3,
+    "background": {
+        "service_worker": "/js/background.js"
+    },
+    "permissions": ["storage", "activeTab", "scripting"],
+    "action": {
+        "default_popup": "/html/popup.html",
+        "default_icon": {
+            "16": "/images/stackOFA_16x16.png",
+            "32": "/images/stackOFA_32x32.png",
+            "48": "/images/stackOFA_48x48.png",
+            "128": "/images/stackOFA_128x128.png"
+        }
+    },
+    "icons": {
+        "16": "/images/stackOFA_16x16.png",
+        "32": "/images/stackOFA_32x32.png",
+        "48": "/images/stackOFA_48x48.png",
+        "128": "/images/stackOFA_128x128.png"
+    }
+}
