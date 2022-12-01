@@ -6,7 +6,8 @@
     "background": {
         "service_worker": "/js/background.js"
     },
-    "permissions": ["storage", "activeTab", "scripting"],
+    "permissions": ["storage", "activeTab", "scripting", "tabs", "tabGroups"],
+    "host_permissions": ["https://stackoverflow.com/*"],
     "action": {
         "default_popup": "/html/popup.html",
         "default_icon": {

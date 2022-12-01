@@ -12,26 +12,27 @@
     <title>StackOverflowAssistant</title>
 </head>
 <body style="background-color:rgb(247, 145, 72)">
+    <!--Title styling-->
     <div class="text-center" style="margin-top: 10px;">
         <img src="/images/logo-stackoverflow.png" alt="logo-stackoverflow" style="width:250px">
-        <h3 style="font-family:fantasy;">Assistant</h3>
+        <h3 style="font-family:fantasy" class="font-italic small">( Assistant )</h3>
     </div>
-
+    <!--Searchbar styling-->
     <div class="container d-lg-inline-flex justify-content-center" style="margin:10px; width: max-content;">
         <div class="input-group mb-3">
             <input type="text" class="form-control" placeholder="Keyword Search" style="background-color:rgb(200, 200, 200);  border-color:rgb(182, 182, 182);">
             <div class="input-group-append">
-                <button class="btn btn-secondary">
+                <button class="btn btn-secondary" id="search_btn">
                     <i class="fas fa-search"></i>
                 </button>
             </div>
         </div>
     </div>
-
+    <!--Group button styling-->
     <div class="text-center" style="margin:10px">
-        <button type="button" class="btn btn-secondary">Group Pages</button>
+        <button type="button" class="btn btn-secondary" id="group_btn">Group Pages</button>
     </div>
-
-    <script src="popup.js"></script>
+    <!--JavaScript reference-->
+    <script src="/js/popup.js" type="module"></script>
 </body>
 </html>
