@@ -3,9 +3,6 @@
     "description": "Assistant for Stack Overflow",
     "version": "1.0",
     "manifest_version": 3,
-    "background": {
-        "service_worker": "/js/background.js"
-    },
     "permissions": ["storage", "activeTab", "scripting", "tabs", "tabGroups"],
     "host_permissions": ["https://stackoverflow.com/*"],
     "action": {
