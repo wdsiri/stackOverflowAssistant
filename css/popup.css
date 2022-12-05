@@ -1,0 +1,29 @@
+body {
+    width: 20rem;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+  
+  li {
+    padding: 0.25rem;
+    margin-bottom: 3px;
+  }
+  li:hover {
+    opacity: 70%;
+  }
+  li:nth-child(odd) {
+    background: rgb(200, 200, 200);
+  }
+  li:nth-child(even) {
+    background: rgb(200, 200, 200);
+  }
+
+  .noselect {
+    user-select: none;
+  }
