@@ -16,6 +16,7 @@ This Chrome Extension allows the user to view and navigate their Stack Overflow 
 
 * Download the code via github
 * Navigate to 'chrome://extensions/'
+* Make sure 'Developer Mode' is turned on
 * Click 'Load Unpacked'
 * Load file into Chrome
 
